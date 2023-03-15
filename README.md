@@ -5,7 +5,6 @@
   456" src="https://i.imgur.com/aeeSO3g.png">
 </p>
 
-
 <p align="center">
   <img width="78" height="25" src="https://i.imgur.com/Z8rsYDh.png">
   <img width="78" height="25" src="https://i.imgur.com/XcZMirD.png">
@@ -17,7 +16,6 @@
     <img width="250" height="55" src="https://i.imgur.com/pGOoFea.png">
   </a>
 </p>
-
 
 ##
 ## 📝📃ㅤNotes of the versionㅤ📃📝
