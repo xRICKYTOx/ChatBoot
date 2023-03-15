@@ -1,4 +1,4 @@
-# 📝🤖ㅤChat Boot Spanishㅤv1.0.0ㅤ🤖📝
+# 📝🤖ㅤChat Bootㅤv1.0.0ㅤ🤖📝
 
 <p align="center">
   <img width="256" height="
