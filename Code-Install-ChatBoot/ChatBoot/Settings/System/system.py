@@ -2,6 +2,7 @@
 
 from subprocess import call, Popen
 from os import system
+import win32api
 
 
 def terminar_app():
@@ -229,11 +230,9 @@ def cerrar_visual_studio_code():
 
 def abrir_taskmgr():
     """Abre la aplicación Task Manager"""
-    Popen(
-        [
-            'Taskmgr.exe'
-        ]
-    )
+    taskmgr_exe = "taskmgr.exe"
+
+    win32api.ShellExecute(0, "runas", taskmgr_exe, None, None, 1)
 
 
 def cerrar_taskmgr():
