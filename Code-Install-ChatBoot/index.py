@@ -508,14 +508,14 @@ class Install():
 
         # Lnk move desktop
 
-        lnk_desktop = f'{path_install}/LnkDektop/CHATBOOT.exe.lnk'
+        lnk_desktop = f'{path_install}/LnkDesktop/CHAT-BOOT.lnk'
         desktop = f'C:/Users/{UserPC}/OneDrive/Escritorio/'
 
         shutil.move(lnk_desktop, desktop)
 
         # Lnk move panel apps
 
-        lnk_panel_apps = f'{path_install}/LnkPrograms/CHATBOOT.exe.lnk'
+        lnk_panel_apps = f'{path_install}/LnkPrograms/CHAT-BOOT.lnk'
 
         panel_apps = 'C:/ProgramData/Microsoft/Windows/Start Menu/Programs'
 
