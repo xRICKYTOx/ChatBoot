@@ -18,6 +18,8 @@ windows_main = Tk()
 Path = StringVar()
 UserPC = win32api.GetUserName()
 
+path_select = os.getcwd()
+
 
 class FinishApp():
     def __init__(
@@ -494,25 +496,26 @@ class Install():
             )
 
     def move_lnk(self):
-        path_selec = Path.get()
+        path_install = Path.get()
 
         # Move Folder
 
-        folder_path = 'ChatBoot'
-        move_folder_path = f'{path_selec}'
+        path_folder = f"{path_select}/ChatBoot"
 
-        shutil.move(folder_path, move_folder_path)
+        move_folder_path = f'{path_install}'
+
+        shutil.move(path_folder, move_folder_path)
 
         # Lnk move desktop
 
-        lnk_desktop = f'{path_selec}/LnkDektop/CHATBOOT.exe.lnk'
+        lnk_desktop = f'{path_install}/LnkDektop/CHATBOOT.exe.lnk'
         desktop = f'C:/Users/{UserPC}/OneDrive/Escritorio/'
 
         shutil.move(lnk_desktop, desktop)
 
         # Lnk move panel apps
 
-        lnk_panel_apps = f'{path_selec}/LnkPrograms/CHATBOOT.exe.lnk'
+        lnk_panel_apps = f'{path_install}/LnkPrograms/CHATBOOT.exe.lnk'
 
         panel_apps = 'C:/ProgramData/Microsoft/Windows/Start Menu/Programs'
 
